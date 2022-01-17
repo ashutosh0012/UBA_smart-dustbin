@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <title>UBA GCOEN</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <link rel="stylesheet" href="./css/templatemo-breezed.css">
+
+    <!-- <link rel="stylesheet" href="./css/owl-carousel.css"> -->
+
+    <!-- <link rel="stylesheet" href="./css/lightbox.css"> -->
+    <style>
+        .bar {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            border-radius: 50%;
+            overflow: hidden;
+            background: #f9f9f9;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .bar::before {
+            content: "";
+            position: absolute;
+            width: 80%;
+            height: 80%;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: inset -10px -10px 50px #ffffffb2,
+                inset 10px 10px 50px rgba(94, 104, 121, 0.945);
+        }
+
+        svg {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            fill: none;
+        }
+
+        svg circle {
+            position: absolute;
+            stroke: #96e82c;
+            stroke-width: 0px;
+            stroke-dashoffset: 500px;
+            stroke-dasharray: 1200px;
+            transform-origin: center;
+            transform: scale(1);
+            animation: bar 6s ease-in-out forwards;
+        }
+
+        #rt {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 2.6em;
+            font-family: monospace;
+            color: #000;
+        }
+        .config {
+            position: absolute;
+            top: 62%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 12px;
+            font-family: cursive;
+            color: #000;
+            letter-spacing: 1px;
+            text-align: center;
+            max-height: 0;
+            animation: blink 1000ms 2s forwards;
+        }
+
+        @keyframes bar {
+            0% {
+                stroke-dashoffset: -800px;
+            }
+
+            100% {
+                stroke-dashoffset: calc(500px - (500px * 90) / 100);
+                stroke-width: 40px;
+            }
+        }
+
+        @keyframes blink {
+            to {
+                opacity: 0;
+            }
+
+            80% {
+                opacity: 1;
+            }
+        }
+
+        .logo {
+            float: left;
+            height: 10vh;
+            margin-left: 0px !important;
+        }
+
+        @media(max-width:500px) {
+            .logo {
+                font-size: 15px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+
+    <!-- ***** Preloader End ***** -->
+
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <img src="images/GANDHI.png" class="logo">
+                        <a href="index.html" class="logo">
+                            &nbsp; SMART DUSTBIN
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#about">About</a></li>
+                            <li class="scroll-to-section"><a href="#status">Project</a></li>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Search Area ***** -->
+
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+            <!-- Item -->
+            <div class="item">
+                <div class="img-fill">
+                    <img src="images/slide-03.jpg" style="max-width:100%;
+                    max-height:100%"; alt="">
+                    <div class="text-content">
+                        <h3>Welcome To SMART DUSTBIN </h3>
+                        <h3>by </h3>
+                        <h5><strong>UNNAT BHARAT ABHIYAN CELL,<br> Government College of Engineering, Nagpur.</strong></h5>
+                        <a href="#about" class="main-stroked-button">KNOW MORE</a>
+                        <a href="#contact-us" class="main-filled-button">CONTACT</a>
+                    </div>
+
+                </div>
+            </div>
+            <!-- // Item -->
+            <!-- Item -->
+            <div class="item">
+                <div class="img-fill">
+                    <img src="images/solar.jpg" style="max-width:100%;
+                    max-height:100%;"alt="">
+                    <div class="text-content">
+                        <h3 style="color: #000;">POWERD BY SOLAR SYSYTEM</h3>
+                        <h5 style="color: #000;"><strong>ENERGY SAVING</strong></h5>
+                        <a href="#about" class="main-stroked-button">KNOW MORE</a>
+                        <a href="#contact-us" class="main-filled-button">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+            <!-- // Item -->
+            <!-- Item -->
+            <div class="item">
+                <div class="img-fill">
+                    <img src="images/cloud.jpg" style="max-width:100%;
+                    max-height:100%;"alt="">
+                    <div class="text-content">
+                        <h3>REAL TIME STATUS DISPLAY</h3>
+                        <h5><strong>USING CLOUD</strong></h5>
+                        <a href="#about" class="main-stroked-button">KNOW MORE</a>
+                        <a href="#contact-us" class="main-filled-button">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+            <!-- // Item -->
+        </div>
+    </div>
+    <div class="scroll-down scroll-to-section"><a href="#about"><i class="fa fa-arrow-down"></i></a></div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** About Area Starts ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>About Us</h6>
+                            <h2>WE ARE HERE TO PROVIDE THE REAL TIME STATUS OF THE DUSTBIN</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="images/solar-energy.png" alt="">
+                                    <h4>SOLAR POWERD</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="images/updating.png" alt="">
+                                    <h4>REAL TIME UPDATE</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="images/truck.png" alt="">
+                                    <h4>GAUGE COUNT</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="service-item">
+                                    <img src="images/automation.png" alt="">
+                                    <h4>AUTOMATIC</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-xs-12">
+                    <div class="right-text-content">
+                        <p><a rel="nofollow noopener" href="https://unnatbharatabhiyan.gov.in:8443/new-website/"
+                                target="_parent">UBA</a> - Unnat Bharat Abhiyan is inspired by the vision of transformational change in 
+                                rural development processes by leveraging knowledge institutions to help build the architecture of an Inclusive India.<br>The Mission of Unnat Bharat Abhiyan is to enable higher educational institutions to work with the people of rural India in identifying development challenges and evolving appropriate solutions for accelerating sustainable growth. 
+
+                            <br><br><strong>ABOUT SMART DUSTBIN</strong> <br>The main objective is to maintain the level of cleanliness in the city and form an environment which is better for living. By using this system, constantly check the level of the garbage in the dustbins which are placed in various parts of the city. If a particular dustbin has reached the maximum level, then the employees can be informed and they can immediately take certain actions to empty it as soon as possible. The employees can check the status of these bins anytime on their mobile phones. This can prove to be a very useful system if used properly. The system can be used as a benchmark by the people who are willing to take one step further for increasing the cleanliness in their respected area.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** About Area Ends ***** -->
+
+    <!-- ***** Features Big Item Start ***** -->
+    <section class="section" id="status">
+        <h1 style="text-align:center">DUSTBIN STATUS</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item mb-4">
+                        <div class="features-icon">
+                            <img src="images/dustbingreen.png" height="50px" width="50px" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>DUSTBIN 1</h4>
+                            <p>This is the status of Dustbin with <strong>DRY WASTE</strong></p>
+
+                        </div>
+                        <div class="bar">
+                            <!--  $  Graphic section start -->
+                            <svg>
+                                <circle cx="50%" cy="50%" r="50%"></circle>
+                            </svg>
+                            <!--  $  Graphic section End-->
+
+                            <!--  %  content section start -->
+                            <h1 id="rt" class="number">0%</h1>
+                            <h4 class="config">Loading Data</h4>
+                            <!-- %   content section End -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item mb-4">
+                        <div class="features-icon">
+                            <img src="images/dustbinblue.png" height="50px" width="50px" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>DUSTBIN 2</h4>
+                            <p>This is the status of Dustbin with <strong>WET WASTE</strong> .</p>
+
+                        </div>
+                        <div class="bar">
+                            <!--  $  Graphic section start -->
+                            <svg>
+                                <circle cx="50%" cy="50%" r="50%"></circle>
+                            </svg>
+                            <!--  $  Graphic section End-->
+
+                            <!--  %  content section start -->
+                            <h1 id="rt" class="number1">0%</h1>
+                            <h4 class="config">Loading Data</h4>
+                            <!-- %   content section End -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <div class="features-item mb-4">
+                        <div class="features-icon">
+                            <img src="images/battery.png" height="50px" width="50px" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>BATTERY STATUS</h4>
+                            <p>This shows the <strong>Battery Level</strong> .</p>
+
+                        </div>
+                        <div class="bar">
+                            <!--  $  Graphic section start -->
+                            <svg>
+                                <circle cx="50%" cy="50%" r="50%"></circle>
+                            </svg>
+                            <!--  $  Graphic section End-->
+
+                            <!--  %  content section start -->
+                            <h1 id="rt" class="number2">0%</h1>
+                            <h4 class="config">Loading Data</h4>
+                            <!-- %   content section End -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
+                    data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
+                    <div class="features-item mb-4">
+                        <div class="features-icon">
+                            <img src="images/led.png" height="50px" width="50px" alt="">
+                        </div>
+                        <div class="features-content">
+                            <h4>LED STATUS</h4>
+                            <p>This gives an ALERT when <strong>Dustbin level is full</strong> .</p>
+
+                        </div>
+                    </div>
+                </div>
+               
+
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+
+
+    <!-- ***** Contact Us Area Starts ***** -->
+    <section class="section" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>Contact Us</h6>
+                        </div>
+                        <ul class="contact-info">
+                            <li><img src="images/calling.png" height="30px" width="30px" alt=""><a href="tel:+918080892358">+91 8080892358</a></li>
+                            <li><img src="images/email.png" height="30px" width="30px" alt=""><a href="mailto:smartdustbin.ubagcoen@gmail.com">smartdustbin.ubagcoen@gmail.com</a></li>
+                            <li><img src="images/world.png" height="30px" width="30px" alt=""><a href="https://www.gcoen.ac.in/">www.gcoen.ac.in</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-xs-12">
+                    <div class="contact-form">
+                        <form id="contact" action="" method="get" >
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                        <input name="name" type="text" id="name" placeholder="Your Name *" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                        <input name="phone" type="text" id="phone" placeholder="Your Phone" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                        <input name="email" type="email" id="email" placeholder="Your Email"
+                                            required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                        <input name="subject" type="text" id="subject" placeholder="Subject">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <textarea name="message" rows="6" id="message" placeholder="Message"
+                                            required=""></textarea>
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <button type="submit" id="form-submit" class="main-button-icon" onclick="location.href='#'">Send Message Now
+                                            <i class="fa fa-arrow-right"></i></button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area Ends ***** -->
+
+    <!-- Footer -->
+    <footer class="w-100 py-4 flex-shrink-0" id="foot">
+        <div class="container py-4 px-0 " >
+            <div class="row gy-4 gx-5">
+                <div class="col-lg-4 col-md-6">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7447.084655501616!2d79.06409300000001!3d21.050991!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x682e0bc768d22adb!2sGovernment%20College%20of%20Engineering%20Nagpur!5e0!3m2!1sen!2sus!4v1623836020035!5m2!1sen!2sus"
+                    width="100%" height="100%" style="border:0; border-radius: 4%;" allowfullscreen=""
+                    loading="lazy"></iframe>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="h2 text-white"><strong>GCOEN</strong></h5>
+                    <p class="small  " style="color:black;"><strong>Government College of Engineering, Nagpur</strong><br>Established in the year 2016 aims to be an institution of national repute  creating globally competent  technocrats to serve the society.
+                    </p>
+                    <p class="small text-muted mb-0">PH: <a class="text-primary" href="tel:07103-295226">07103-295226(P)</a>/ <a class="text-primary" href="tel:07103-295220">07103-295220(O)</a></p><BR>
+                    <p class="small  mb-0" style="color:black;">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">@ubaGCOEN</a></p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="h2 text-white"><strong>OUR TEAM</strong></h5>
+                    <ul class="medium list-unstyled " style="color:black;">
+                        <li><a style="color:black;" href="">Guide : Dr. V. M. Athavale</a></li>
+                        <li><a style="color:black;" href="">Shubham Bawane</a></li>
+                        <li><a style="color:black;" href="">Ashutosh Rokade</a></li>
+                        <li><a style="color:black;" href="">Raj Ranjan</a></li>
+                        <li><a style="color:black;" href="">Aastha Pagote</a></li>
+                        <li><a style="color:black;" href="">Renuka Somalkar</a></li>
+                        <li><a style="color:black;" href="">Himanshi Rahangdale </a></li>
+                    </ul>
+                    
+                </div>
+
+                <!-- <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div> -->
+                <!-- <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-3">Quick links</h5>
+                    <ul class="list-unstyled text-muted">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Get started</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div> -->
+                <!-- <div class="col-lg-4 col-md-6">
+                    <h5 class="text-white mb-3">Newsletter</h5>
+                    <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                    <form action="#">
+                        <div class="input-group mb-3">
+                            <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </footer>
+</div>
+    <!-- Footer -->
+    <!-- <footer class="page-footer font-small teal pt-4 " style="padding-bottom:0%">
+
+        <div class="container-fluid text-center text-md-left">
+
+            
+            <div class="row">
+
+                
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                    
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7447.084655501616!2d79.06409300000001!3d21.050991!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x682e0bc768d22adb!2sGovernment%20College%20of%20Engineering%20Nagpur!5e0!3m2!1sen!2sus!4v1623836020035!5m2!1sen!2sus"
+                        width="400" height="250" style="border:0; border-radius: 4%;" allowfullscreen=""
+                        loading="lazy"></iframe>
+
+                </div>
+                
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                
+                <div class="col-md-6 mb-md-0 mb-3" style="padding-left: 10%;">
+
+
+
+                </div>
+               
+
+            </div>
+
+
+        </div>
+
+        <div class="footer-copyright text-center py-3">© 2021 Copyright:
+            <a href="https://mdbootstrap.com/"> ubagcoen.com</a>
+        </div>
+       
+
+    </footer> -->
+    <!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <!-- <script src="js/jquery-2.1.0.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script> -->
+
+    <!-- Plugins -->
+    <!-- <script src="js/owl-carousel.js"></script> -->
+    <!-- <script src="js/scrollreveal.min.js"></script> -->
+    <!-- <script src="js/waypoints.min.js"></script> -->
+    <!-- <script src="js/jquery.counterup.min.js"></script> -->
+    <!-- <script src="js/imgfix.min.js"></script> -->
+    <script src="js/slick.js"></script>
+    <!-- <script src="js/lightbox.js"></script> -->
+    <script src="js/isotope.js"></script>
+
+    <!-- Global Init -->
+    <script src="js/custom.js"></script>
+
+    <script>
+
+        $(function () {
+            var selectedClass = "";
+            $("p").click(function () {
+                selectedClass = $(this).attr("data-rel");
+                $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("." + selectedClass).fadeOut();
+                setTimeout(function () {
+                    $("." + selectedClass).fadeIn();
+                    $("#portfolio").fadeTo(50, 1);
+                }, 500);
+
+            });
+        });
+
+    </script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-firestore.js"></script>
+    <script src="js/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.0/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+  apiKey: "AIzaSyDC-gIMtiCVlkhpELCB31R24JNp-Z8KdcQ",
+  authDomain: "smart-dustbin-2288e.firebaseapp.com",
+  databaseURL: "https://smart-dustbin-2288e-default-rtdb.firebaseio.com",
+  projectId: "smart-dustbin-2288e",
+  storageBucket: "smart-dustbin-2288e.appspot.com",
+  messagingSenderId: "520076824266",
+  appId: "1:520076824266:web:72317484d2d9ee3aba2e33",
+  measurementId: "G-HYW70QC154"
+};
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+
+        // const preobject = document.getElementById("element");
+        // a = document.getElementsByTagName()
+        
+
+
+
+
+        const dbrefobject = firebase.database().ref().child('App/Dustbin1');
+        const dbrefobject1 = firebase.database().ref().child('App/Dustbin2');
+        // const dbrefobject2 = firebase.database().ref().child('element2');
+
+        function realtime(obj,cl) {
+            var x = 0;
+            obj.on('value', snap => {
+                x = snap.val()
+                // console.log(x);
+                // preobject.innerHTML=snap.val()
+
+            });
+            var num = document.querySelector(cl);
+            let counter = 0;
+            setInterval(() => {
+                if (counter == x) {
+                    clearInterval();
+                } else if (counter > x) {
+                    counter -= 1;
+                    num.textContent = (100 - counter) + "%";
+                }
+                else if (counter < x) {
+                    counter += 1;
+                    num.textContent = (100-counter) + "%";
+                }
+            }, 50);
+
+        }
+
+        realtime(dbrefobject,".number");
+        realtime(dbrefobject1,".number1");
+        // realtime(dbrefobject2,".number2");
+
+
+
+
+    const Name = document.getElementById('name');
+const Phone = document.getElementById('phone');
+const Email = document.getElementById('email');
+const Subject = document.getElementById('subject');
+const Message = document.getElementById('message');
+const addBtn = document.getElementById('form-submit');
+
+
+const database = firebase.firestore();
+
+const usersCollection = database.collection('users');
+
+addBtn.addEventListener('click', e => {
+  e.preventDefault();
+  const ID = usersCollection.add({
+    Name: Name.value,
+    Phone: Phone.value,
+    Email: Email.value,
+    Subject: Subject.value,
+    Message: Message.value
+  });
+  
+//   location.reload();
+});
+    </script>
+
+
+</body>
+
+</html>
