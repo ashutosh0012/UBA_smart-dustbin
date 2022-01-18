@@ -123,6 +123,7 @@ body {
   background: #5fb759;
   color: #fff;
 }
+
 ::-moz-selection {
   background: #5fb759;
   color: #fff;
@@ -1277,7 +1278,7 @@ contact
 
 #contact-us {
   padding: 120px 0px;
-  /*background-image: url(../images/dotted-map-bg.png);*/
+  background-image: url(../images/dotted-map-bg.png);
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -1668,20 +1669,4 @@ portfolio
   #projects .section-heading {
     margin-bottom: 0px;
   }
-}
-
-.wrapper {
-  position:relative;
-  width: 200px;
-  height: 200px;
-  margin: auto;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  display: flex;
-}
-.containerz {
-  font: 1px;
-  padding: 0 20px;
 }
