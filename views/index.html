@@ -290,7 +290,7 @@
                         </div>
                         <div class="features-content">
                             <h4>DUSTBIN 1</h4>
-                            <p>This is the status of Dustbin with <strong>DRY WASTE</strong></p>
+                            <p>This is the status of filled Dustbin with <strong>DRY WASTE</strong></p>
 
                         </div>
                         <div class="bar">
@@ -315,7 +315,7 @@
                         </div>
                         <div class="features-content">
                             <h4>DUSTBIN 2</h4>
-                            <p>This is the status of Dustbin with <strong>WET WASTE</strong> .</p>
+                            <p>This is the status of filled Dustbin with <strong>WET WASTE</strong> .</p>
 
                         </div>
                         <div class="bar">
@@ -332,44 +332,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <div class="features-item mb-4">
-                        <div class="features-icon">
-                            <img src="images/battery.png" height="50px" width="50px" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>BATTERY STATUS</h4>
-                            <p>This shows the <strong>Battery Level</strong> .</p>
 
-                        </div>
-                        <div class="bar">
-                            <!--  $  Graphic section start -->
-                            <svg>
-                                <circle cx="50%" cy="50%" r="50%"></circle>
-                            </svg>
-                            <!--  $  Graphic section End-->
-
-                            <!--  %  content section start -->
-                            <h1 id="rt" class="number2">0%</h1>
-                            <h4 class="config">Loading Data</h4>
-                            <!-- %   content section End -->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
-                    data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <div class="features-item mb-4">
-                        <div class="features-icon">
-                            <img src="images/led.png" height="50px" width="50px" alt="">
-                        </div>
-                        <div class="features-content">
-                            <h4>LED STATUS</h4>
-                            <p>This gives an ALERT when <strong>Dustbin level is full</strong> .</p>
-
-                        </div>
-                    </div>
-                </div>
                
 
             </div>
@@ -646,11 +609,11 @@
                     clearInterval();
                 } else if (counter > x) {
                     counter -= 1;
-                    num.textContent = (100 - counter) + "%";
+                    num.textContent = parseInt(((counter/32)*100)-100) + "%";
                 }
                 else if (counter < x) {
                     counter += 1;
-                    num.textContent = (100-counter) + "%";
+                    num.textContent =parseInt(((counter/32)*100)-100) + "%";
                 }
             }, 50);
 
