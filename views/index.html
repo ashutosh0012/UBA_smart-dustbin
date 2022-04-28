@@ -609,11 +609,11 @@
                     clearInterval();
                 } else if (counter > x) {
                     counter -= 1;
-                    num.textContent = parseInt(((counter/32)*100)-100) + "%";
+                    num.textContent = parseInt((100-(counter/34)*100)) + "%";
                 }
                 else if (counter < x) {
                     counter += 1;
-                    num.textContent =parseInt(((counter/32)*100)-100) + "%";
+                    num.textContent =parseInt((100-(counter/34)*100)) + "%";
                 }
             }, 50);
 
